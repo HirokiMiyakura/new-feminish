@@ -1,0 +1,215 @@
+.bg_checkbox li {
+  position: relative;
+  /*display: inline-block;*/
+  /*margin: auto;*/
+  padding: 10px 0;
+}
+
+.bg_checkbox input {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.bg_checkbox input[type="checkbox"] + label {
+  display: block;
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c1.png');
+  background-size: 373px 36px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  height: 56px;
+}
+
+.bg_checkbox input[type="checkbox"]:checked + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c1-off.png');
+  height: 56px;
+}
+.bg_checkbox .c1 input[type="checkbox"] + label {
+  display: block;
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c1.png');
+  background-size: 373px 36px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+}
+.bg_checkbox .c1 input[type="checkbox"]:checked + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c1-off.png');
+}
+
+.bg_checkbox .c2 input[type="checkbox"] + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c2.png');
+  background-size: 213px 36px;
+}
+.bg_checkbox .c2 input[type="checkbox"]:checked + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c2-off.png');
+}
+.bg_checkbox .c3 input[type="checkbox"] + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c3.png');
+  background-size: 213px 36px;
+}
+.bg_checkbox .c3 input[type="checkbox"]:checked + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c3-off.png');
+}
+.bg_checkbox .c4 input[type="checkbox"] + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c4.png');
+  background-size: 413px 36px;
+}
+.bg_checkbox .c4 input[type="checkbox"]:checked + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c4-off.png');
+}
+.bg_checkbox .c5 input[type="checkbox"] + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c5.png');
+  background-size: 383px 72px;
+  height: 96px;
+}
+.bg_checkbox .c5 input[type="checkbox"]:checked + label {
+  background-image: url('../img/ABOUT/ABOUT-NAYAMI/c5-off.png');
+}
+.hukudashi1,
+.hukudashi2,
+.hukudashi3,
+.hukudashi4,
+.hukudashi5 {
+  display: none;
+  top: 0;
+  right: 0;
+}
+.hukudashi1.hyouji,
+.hukudashi2.hyouji,
+.hukudashi3.hyouji,
+.hukudashi4.hyouji,
+.hukudashi5.hyouji {
+  display: block;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .bg_checkbox li {
+    padding: 10px 0;
+  }
+
+  .bg_checkbox input {
+    width: 100%;
+    height: 100%;
+  }
+  .bg_checkbox input[type="checkbox"] + label {
+    display: block;
+    /* background-size: 37vw; */
+    padding: 10px 0;
+    /* height: 56px; */
+  }
+
+  .bg_checkbox input[type="checkbox"]:checked + label {
+    /*height: 56px;*/
+    height: auto;
+    height: 40px;
+  }
+  .bg_checkbox .c1 input[type="checkbox"] + label {
+    background-size: 37vw;
+    padding: 10px 0;
+    height: 40px;
+  }
+  .bg_checkbox .c1 input[type="checkbox"]:checked + label {
+    background-size: 37vw;
+    height: 40px;
+  }
+
+  .bg_checkbox .c2 input[type="checkbox"] + label {
+    background-size: 21vw;
+    height: 40px;
+  }
+  .bg_checkbox .c2 input[type="checkbox"]:checked + label {
+    background-size: 21vw;
+    height: 40px;
+  }
+  .bg_checkbox .c3 input[type="checkbox"] + label {
+    background-size: 21vw;
+    padding: 10px 0;
+    height: 40px;
+  }
+  .bg_checkbox .c3 input[type="checkbox"]:checked + label {
+    background-size: 21vw;
+    height: 40px;
+  }
+  .bg_checkbox .c4 input[type="checkbox"] + label {
+    background-size: 41vw;
+    height: 40px;
+  }
+  .bg_checkbox .c4 input[type="checkbox"]:checked + label {
+    background-size: 41vw;
+    height: 40px;
+  }
+  .bg_checkbox .c5 input[type="checkbox"] + label {
+    background-size: 38vw;
+    height: 80px;
+  }
+  .bg_checkbox .c5 input[type="checkbox"]:checked + label {
+    background-size: 38vw;
+    height: 80px;
+  }
+  .hukudashi1.hyouji,
+  .hukudashi2.hyouji,
+  .hukudashi3.hyouji,
+  .hukudashi4.hyouji,
+  .hukudashi5.hyouji,
+  .absolute {
+    width: 52vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bg_checkbox li {
+    padding: 0;
+  }
+  .bg_checkbox input[type="checkbox"]:checked + label {
+    /*height: 56px;*/
+    height: auto;
+    height: 30px;
+  }
+  .bg_checkbox .c1 input[type="checkbox"] + label {
+    background-size: 37vw;
+    padding: 10px 0;
+    height: 30px;
+  }
+  .bg_checkbox .c1 input[type="checkbox"]:checked + label {
+    background-size: 37vw;
+    height: 30px;
+  }
+
+  .bg_checkbox .c2 input[type="checkbox"] + label {
+    background-size: 21vw;
+    height: 30px;
+  }
+  .bg_checkbox .c2 input[type="checkbox"]:checked + label {
+    background-size: 21vw;
+    height: 30px;
+  }
+  .bg_checkbox .c3 input[type="checkbox"] + label {
+    background-size: 21vw;
+    padding: 10px 0;
+    height: 30px;
+  }
+  .bg_checkbox .c3 input[type="checkbox"]:checked + label {
+    background-size: 21vw;
+    height: 30px;
+  }
+  .bg_checkbox .c4 input[type="checkbox"] + label {
+    background-size: 41vw;
+    height: 30px;
+  }
+  .bg_checkbox .c4 input[type="checkbox"]:checked + label {
+    background-size: 41vw;
+    height: 30px;
+  }
+  .bg_checkbox .c5 input[type="checkbox"] + label {
+    background-size: 38vw;
+    height: 40px;
+  }
+  .bg_checkbox .c5 input[type="checkbox"]:checked + label {
+    background-size: 38vw;
+    height: 40px;
+  }
+}

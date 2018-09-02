@@ -1,0 +1,131 @@
+#menu-bt {
+   width: 84px;
+   height: 84px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 9999;
+}
+nav#menu{
+   position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #E3005E;
+    z-index: 999;
+}
+	
+nav#menu ul{
+    display: block;
+    width: 80%;
+   margin: 10% auto;
+   padding: 0px;	
+}
+	
+nav#menu ul li{
+   list-style-type:none;	
+}
+	
+nav#menu ul li a{
+   width:100%;
+   display:block;
+   /*background-color:#333;*/
+   color:#fff;
+   /*border-bottom:1px solid #ccc;	*/
+   text-align:center;
+   padding:9px 0px 9px 0px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+
+#menu-bt-sp {
+   width: 71px;
+   height: 71px;
+   position: absolute;
+   top: 10;
+   right: 0;
+   z-index: 9999;
+}
+nav#menu-sp{
+   position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #E3005E;
+    z-index: 999;
+}
+	
+nav#menu-sp ul{
+    width:80%;
+   margin:0 auto;
+   padding:0px;	
+   display:block;
+}
+	
+nav#menu-sp ul li{
+   list-style-type:none;	
+}
+	
+nav#menu-sp ul li a{
+   width:100%;
+   display:block;
+   /*background-color:#333;*/
+   color:#fff;
+   /*border-bottom:1px solid #ccc;*/
+   text-align:center;
+   padding:9px 0px 9px 0px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+#menu-bt-sp {
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 9999;
+}
+nav#menu-sp{
+   position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #E3005E;
+    z-index: 999;
+}
+	
+nav#menu-sp ul{
+    display: block;
+    width: 90%;
+   margin:20% auto 0 auto;
+   padding:0px;	
+}
+	
+nav#menu-sp ul li{
+   list-style-type:none;	
+}
+	
+nav#menu-sp ul li a{
+   width:100%;
+   display:block;
+   /*background-color:#333;*/
+   color:#fff;
+   /*border-bottom:1px solid #ccc;	*/
+   text-align:center;
+   padding:9px 0px 9px 0px;
+}
+
+nav#menu-sp ul li a img {
+    width: 100%;
+}
+
+}

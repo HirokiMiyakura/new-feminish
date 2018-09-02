@@ -1,0 +1,83 @@
+#panel {
+  padding-top: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#panel > dt {
+  color: #E3005E;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 20pt;
+  background: url('../img/FAQ/q-mark.png') left center no-repeat;
+}
+
+#panel > dd {
+  margin: 0px;
+  padding: 20px 0;
+  color: gray;
+  font-size: 16pt;
+}
+
+.arrow_box {
+  padding: 20px;
+  position: relative;
+  background: transparent;
+  border: 2px solid #E3005E;
+}
+.arrow_box:after, .arrow_box:before {
+  bottom: 100%;
+  left: 20%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-color: transparent;
+  border-width: 12px;
+  margin-left: -12px;
+}
+.arrow_box:before {
+  border-color: rgba(138, 206, 205, 0);
+  border-bottom-color: #E3005E;
+  border-width: 15px;
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 1000px) {
+  #panel dt,
+  #panel dd {
+    font-size: 14pt;
+  }
+  
+  #panel dt {
+    padding: 20px 0 20px 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #panel {
+    padding-top: 0;
+  }
+
+  #panel > dt {
+    padding: 10px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 10pt;
+    background-size: 25px 25px;
+  }
+
+  #panel > dd {
+    margin: 0px;
+    padding: 20px 0;
+    font-size: 10pt;
+  }
+}

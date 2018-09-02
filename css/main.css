@@ -1,0 +1,964 @@
+/* style.cssの上書き */
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/*共通*/
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .8;
+}
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.section-inner {
+  width: 854px;
+  margin: 0 auto;
+}
+
+section p {
+  text-align: center;
+}
+
+button.btn.btn-primary {
+  width: 100%;
+}
+
+.midashi {
+  font-size: 24pt;
+  font-weight: normal;
+  color: #E3005E!important;
+  border-bottom: 1px solid #E3005E;
+  padding-bottom: 0!important;
+  margin-bottom: 40px!important;
+}
+
+.form-group {
+  display: none;
+}
+
+.wrapper {
+  background: url('../img/COMMON/new-bg.png') repeat-y;
+  background-size: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* ヘッダー */
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.pc-logo {
+  position: absolute;
+  margin: 0;
+  top: 27px;
+  left: 10px;
+  z-index: 999999;
+}
+
+.global-nav {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.global-nav ul {
+  display: inline-flex;
+}
+
+.global-nav li {
+  padding: 17px 0;
+}
+
+.sub-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sub-nav ul {
+  width: 282px;
+  display: inline-flex;
+}
+
+.sub-nav li {
+  padding: 10px 10px 0 10px;
+  vertical-align: bottom;
+}
+
+.header-bottom {
+  background: url('../img/COMMON/header/header-bottom-border.png') repeat-x bottom;
+  height: 26px;
+}
+
+.h-about {
+  background: url('../img/COMMON/header/h-about.png') no-repeat top center;
+  background-size: contain;
+}
+
+/*トップページ*/
+
+.center-slide {
+  position: relative;
+  margin-top: 40%;
+}
+
+.MV {
+  background: url('../img/TOP/MV/s1.png') no-repeat;
+  background-position: 25% 100%
+}
+
+.LINEUP {
+  background: url('../img/TOP/LINEUP/s1.png'),url('../img/TOP/LINEUP/s2.png');
+  background-position: 77% -2%, 50% 100%;
+  background-repeat: no-repeat, no-repeat;
+  padding-bottom: 10%;
+
+}
+
+.lineup-container {
+  padding-top: 5%;
+  display: inline-flex;
+}
+
+.lineup-item img {
+  /*width: 70%;*/
+}
+
+.lineup-item:first-child {
+  background: url('../img/TOP/LINEUP/separator.png') repeat-y right;
+}
+
+.CAMPAIGN {
+  /*padding-bottom: 10%;*/
+  background: url('../img/TOP/CAMPAIGN/s1.png'),url('../img/TOP/CAMPAIGN/s2.png'),url('../img/TOP/CAMPAIGN/s3.png');
+  background-position: 20% 11%, 80% 2%, 50% 99%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.campaign-container {
+  display: inline-flex;
+  padding: 5% 0;
+}
+
+.campaign-item {
+  position: relative;
+}
+
+.campaign-item:first-child {
+  margin-right: -10%;
+  margin-top: 7%;
+  z-index: 1;
+}
+
+.NEWS {
+  position: relative;
+  z-index: 3;
+}
+
+.article-waku {
+  background-color: rgb(230,230,230);
+  padding: 5% 5% 5% 15%;
+  margin-top: 5%;
+  position: relative;
+}
+
+.oshirase {
+  position: absolute;
+  top: -3%;
+  left: -3%;
+  width: 170px;
+}
+
+.SNS {
+  position: relative;
+  z-index: 1;
+  margin-top: -17%;
+}
+
+/* フッター */
+
+footer {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 5% 0;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-container {
+  display: inline-flex;
+  width: 100%;
+}
+
+.footer-item {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.footer-item ul li {
+  font-size: 16pt;
+  margin: 15px 0;
+}
+
+.footer-item ul li a {
+  color: #E3005E;
+  font-weight: bold;
+}
+
+.footer-item ul li {
+  padding-left: 50px;
+  background-size: contain;
+  padding: 15px 0 15px 80px;
+}
+
+.f-guide {
+  background: url('../img/COMMON/footer/f-guide.png') no-repeat left center;
+}
+
+.f-contact {
+  background: url('../img/COMMON/footer/f-contact.png') no-repeat left center;
+}
+
+.f-company {
+  background: url('../img/COMMON/footer/f-company.png') no-repeat left center;
+}
+
+.f-law {
+  background: url('../img/COMMON/footer/f-law.png') no-repeat left center;
+}
+
+.f-voice {
+  background: url('../img/COMMON/footer/f-voice.png') no-repeat left center;
+}
+
+.f-faq {
+  background: url('../img/COMMON/footer/f-faq.png') no-repeat left center;
+}
+
+.f-sitemap {
+  background: url('../img/COMMON/footer/f-sitemap.png') no-repeat left center;
+}
+
+.f-privacypolicy {
+  background: url('../img/COMMON/footer/f-privacypolicy.png') no-repeat left center;
+}
+
+/*フェミニッシュについて*/
+
+.ABOUT-NAYAMI p {
+  margin: 4% 0;
+}
+
+.about-inner {
+  width: 864px;
+  margin: 0 auto;
+}
+
+.bg_checkbox {
+  width: 864px;
+  margin: 0 auto;
+}
+
+/*商品一覧*/
+
+.products-container {
+  width: 100%;
+  display: inline-flex;
+}
+
+.products-item {
+  text-align: center;
+  width: 50%;
+  padding: 2%;
+}
+
+.kuwashiku {
+  margin: 3% 0;
+}
+
+/*タブ*/
+
+section.TAB {
+  padding: 20px 0 40px 0;
+}
+
+.ChangeElem_Btn_Content {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: #E3005E double;
+}
+
+.tab-content {
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.tab1 p,
+.tab2 p,
+.tab3 p {
+  margin: 5% 0;
+}
+
+/*定期便*/
+
+.TEIKI-PRODUCT p {
+  margin: 4% 0;
+}
+
+.teiki-product-inner {
+  width: 850px;
+  margin: 0 auto;
+}
+
+/*キャンペーン*/
+
+.CAMPAIGN-F-POINT p,
+.CAMPAIGN-S-POINT p {
+  margin: 7% 0;
+}
+
+.campaign-inner {
+  width: 900px;
+  margin: 0 auto
+}
+
+.campaign-product-inner {
+  width: 923px;
+  margin: 0 auto
+}
+
+/*よくあるご質問*/
+
+.FAQ {
+  margin: 5% 0;
+}
+
+.FAQ-FEMINISH,
+.FAQ-SHOPPING {
+  margin-top: 50px;
+}
+
+.faq-feminish-inner {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.faq-shopping-inner {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/*ご利用ガイド*/
+
+.GUIDE {
+  margin: 5% 0;
+}
+
+.guide-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.guide-inner h2 {
+  font-size: 24pt;
+  margin: 30px 0 5px 0;
+  padding: 10px 0;
+  color: gray;
+}
+
+.guide-inner p,
+.guide-inner li {
+  font-size: 16pt;
+  line-height: 21pt;
+  color: gray;
+  text-align: left;
+}
+
+/*会社概要*/
+
+.COMPANY {
+  margin: 5% 0;
+}
+
+.company-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.company-inner h2 {
+  font-size: 24pt;
+  margin: 30px 0 5px 0;
+  padding: 10px 0;
+  color: gray;
+}
+
+.company-inner p,
+.company-inner li {
+  font-size: 16pt;
+  line-height: 21pt;
+  color: gray;
+  text-align: left;
+}
+
+
+/*特定商取引法*/
+
+.LAW {
+  margin: 5% 0;
+}
+
+.law-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.law-inner h2 {
+  font-size: 24pt;
+  margin: 30px 0 5px 0;
+  padding: 10px 0;
+  color: gray;
+}
+
+.law-inner p,
+.law-inner li,
+.law-inner th,
+.law-inner td {
+  font-size: 16pt;
+  line-height: 21pt;
+  color: gray;
+  text-align: left;
+}
+
+/*プライバシーポリシー*/
+
+.PP {
+  margin: 5% 0;
+}
+
+.pp-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pp-inner h2 {
+  font-size: 24pt;
+  margin: 30px 0 5px 0;
+  padding: 10px 0;
+  color: gray;
+}
+
+.pp-inner p,
+.pp-inner li {
+  font-size: 16pt;
+  line-height: 21pt;
+  color: gray;
+  text-align: left;
+}
+
+/*ユーザーボイス*/
+
+.VOICE {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.VOICE p {
+  width: 80%;
+  margin: 5% auto;
+}
+
+/*サイトマップ*/
+
+.SITEMAP {
+  margin-top: 5%;
+  padding: 5%;
+  border: 1px solid silver;
+}
+
+.SITEMAP h1 {
+  font-size: 20pt;
+}
+
+.wsp-pages-title {
+  display: none;
+}
+
+.wsp-container {
+  font-size: 14pt;
+}
+
+/*single.php*/
+
+.article-outer {
+  padding: 3%;
+}
+
+.article-inner {
+  padding: 3%;
+  background-color: #fff;
+  font-size: 12pt;
+}
+.article-inner p {
+  width: 100%;
+  line-height: 18pt;
+  margin: 0;
+  padding: 3% 0;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+
+  .global-nav {
+    width: 420px;
+  }
+
+  .global-nav li {
+    padding: 30px 0;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  /*共通*/
+
+  .pc {
+    display: none;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  /* ヘッダー */
+
+  header {
+    height: 60px;
+  }
+
+  .pc-logo {
+    top: 20px;
+    width: 150px;
+  }
+
+  .sub-nav {
+    width: 150px;
+  }
+
+  .sub-nav ul {
+    width: auto;
+  }
+
+  .sub-nav ul li {
+    padding: 0;
+    margin: 10px;
+  }
+
+  .sub-nav ul li img {
+    height: 30px;
+  }
+
+  .tabspheader {
+    width: 100%;
+    height: 95px;
+  }
+
+  .tabsp-global-nav {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background: none;
+  }
+
+  .tabsp-container {
+    display: inline-flex;
+    width: 95%;
+    margin-left: 5%;
+  }
+
+  .tabsp-container li {
+    width: 25%;
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .oshirase {
+    width: 15vw;
+  }
+
+  .section-inner {
+    width: 100%;
+  }
+
+  /* フッター */
+
+  footer {
+    width: 100%;
+  }
+
+  .footer-item {
+    margin-left: 5vw;
+  }
+
+  .footer-item ul li {
+    font-size: 12pt;
+    padding-left: 50px;
+    background-size: 40px 40px;
+    padding: 15px 0 15px 50px;
+  }
+
+  /*フェミニッシュについて*/
+
+  .about-inner {
+    width: 100%;
+  }
+
+  .bg_checkbox {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* シート */
+
+  .kuwashiku {
+    width: 35vw;
+    margin: 3% auto;
+  }
+
+  /* 定期 */
+
+  .teiki-product-inner {
+    width: 100%;
+  }
+
+  /* キャンペーン */
+
+  .campaign-inner,
+  .campaign-product-inner {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .tabsp-header,
+  .tabsp-global-nav {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  header {
+    height: 75px;
+  }
+
+  .sub-nav {
+    top: 0;
+    right: 0;
+    width: 230px;
+  }
+
+  .sub-nav ul li img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .midashi {
+    font-size: 20pt!important;
+  }
+
+  #menu-sp ul {
+    padding: 15% auto;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  /* 共通 */
+
+  .midashi {
+    font-size: 17pt!important;
+    margin-bottom: 10px!important;
+  }
+
+  /* ヘッダー */
+
+  .pc-logo {
+    top: 15px;
+  }
+
+  .header-bottom {
+    background: none;
+    height: 6px;
+    border-bottom: #E3005E 6px double;
+  }
+
+  .sub-nav {
+    width: 165px;
+    top: 10px;
+  }
+
+  .sub-nav ul li {
+    margin: 0 5px;
+  }
+
+  .sub-nav ul li img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tabsp-container {
+    width: 97%;
+    margin-left: 3%;
+  }
+
+  .headr-bottom {
+    height: 23px;
+  }
+
+  .articles h2 {
+    font-size: 10pt;
+  }
+
+  /*フッター*/
+
+  .footer-item ul li a {
+    font-size: 9pt;
+  }
+
+  .footer-item ul li {
+    padding-left: 35px;
+    background-size: 30px 30px;
+    padding: 15px 0 15px 35px;
+  }
+
+  /* トップページ */
+
+  .MV,
+  .LINEUP,
+  .CAMPAIGN {
+    background-size: 15%;
+  }
+
+  /*商品一覧 */
+
+  .products-container {
+    margin: 4% 0;
+  }
+
+  /* フォーム */
+  .tab1 p.kuwashiku {
+    margin: 4% auto;
+  }
+
+  /*ご利用ガイド*/
+
+  .tab1 p,
+  .tab2 p,
+  .tab3 p {
+    margin: 5% 10px;
+  }
+
+  .GUIDE {
+    margin: 5% 0;
+  }
+
+  .guide-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .guide-inner h2 {
+    font-size: 16pt;
+    margin: 30px 0 5px 0;
+    padding: 10px 0;
+    color: gray;
+  }
+
+  .guide-inner p,
+  .guide-inner li {
+    font-size: 12pt;
+    line-height: 18pt;
+    color: gray;
+    text-align: left;
+  }
+
+  /*会社概要*/
+
+  .COMPANY {
+    margin: 5% 0;
+  }
+
+  .company-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .company-inner h2 {
+    font-size: 16pt;
+    margin: 30px 0 5px 0;
+    padding: 10px 0;
+    color: gray;
+  }
+
+  .company-inner p,
+  .company-inner li {
+    font-size: 12pt;
+    line-height: 18pt;
+    color: gray;
+    text-align: left;
+  }
+
+
+  /*特定商取引法*/
+
+  .LAW {
+    margin: 5% 0;
+  }
+
+  .law-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .law-inner h2 {
+    font-size: 16pt;
+    margin: 30px 0 5px 0;
+    padding: 10px 0;
+    color: gray;
+  }
+
+  .law-inner p,
+  .law-inner li,
+  .law-inner th,
+  .law-inner td {
+    font-size: 12pt;
+    line-height: 18pt;
+    color: gray;
+    text-align: left;
+  }
+
+  .law-inner th,
+  .law-inner td {
+    display: block;
+    width: 100%;
+  }
+
+  /*プライバシーポリシー*/
+
+  .PP {
+    margin: 5% 0;
+  }
+
+  .pp-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .pp-inner h2 {
+    font-size: 16pt;
+    margin: 30px 0 5px 0;
+    padding: 10px 0;
+    color: gray;
+  }
+
+  .pp-inner p,
+  .pp-inner li {
+    font-size: 12pt;
+    line-height: 18pt;
+    color: gray;
+    text-align: left;
+  }
+
+  /*ユーザーボイス*/
+
+  .voice-inner {
+    width: 90%;
+    margin: 4% auto;
+    border: 1px solid gray;
+    clear: both;
+  }
+
+  .voice-inner p {
+    margin: 20px;
+    font-size: 12pt;
+  }
+
+  /*よくあるご質問*/
+
+  .FAQ-FEMINISH,
+  .FAQ-SHOPPING {
+    padding: 0;
+  }
+
+  .faq-feminish-inner,
+  .faq-shopping-inner {
+    width: 100%;
+  }
+
+  /*ユーザーボイス*/
+
+  .VOICE p {
+    width: 95%;
+    margin: 5% auto;
+  }
+
+  /*サイトマップ*/
+
+  .SITEMAP {
+    margin-top: 5%;
+    padding: 5%;
+    border: 1px solid silver;
+  }
+
+  .SITEMAP h1 {
+    font-size: 16pt;
+  }
+
+  .wsp-pages-title {
+    display: none;
+  }
+
+  .wsp-container {
+    font-size: 12pt;
+  }
+}
