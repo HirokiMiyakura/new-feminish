@@ -114,7 +114,7 @@ get_header(); ?>
 															<li>〒930-0858</li>
 															<li>富山県富山市牛島町18-7　アーバンプレイス10F</li>
 														</ul>
-														<p>メールでのお問い合わせは<a href="<?php echo home_url(); ?>/contact">こちら</a>からお願い致します。</p>
+														<p>メールでのお問い合わせは<a targrt="_blank" href="https://alliancepharma.jp/contacts/new">こちら</a>からお願い致します。</p>
 													</div>
 												</section>
 												<!-- /GUIDE section -->

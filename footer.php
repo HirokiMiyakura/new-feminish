@@ -8,7 +8,7 @@
 		<div class="footer-item">
 			<ul>
 				<li class="f-guide"><a href="<?php echo home_url(); ?>/guide">ご利用ガイド</a></li>
-				<li class="f-contact"><a href="<?php echo home_url(); ?>/contact">お問合せ</a></li>
+				<li class="f-contact"><a target="_blank" href="https://alliancepharma.jp/contacts/new">お問合せ</a></li>
 				<li class="f-company"><a href="<?php echo home_url(); ?>/company">会社概要</a></li>
 				<li class="f-law"><a href="<?php echo home_url(); ?>/law">特定商取引法</a></li>
 			</ul>
