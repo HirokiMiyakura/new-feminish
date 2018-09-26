@@ -10,7 +10,7 @@ get_header(); ?>
 <section class="PRODUCTS-FOAM">
 	<p>
 		<a href="<?php echo home_url(); ?>/foam">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1.png" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1.png" alt="薬用フェミニッシュフォーム（泡タイプ洗浄料）">
 		</a>
 	</p>
 	<div class="products-container">
@@ -35,7 +35,7 @@ get_header(); ?>
 				<option value="18">18</option>
 				<option value="19">19</option>
 				<option value="20">20</option></select></div><button name="button" type="submit" class="btn btn-primary">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-normal-test.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-normal-test.png" alt="カートに追加する（通常価格）">
 				</button></form><pre class="html-tag-content"></pre>
 			</div>
 			<div class="products-item">
@@ -59,7 +59,7 @@ get_header(); ?>
 					<option value="18">18</option>
 					<option value="19">19</option>
 					<option value="20">20</option></select></div><div class="form-group"><div class="form-group"><label><input type="radio" name="products[][variant_id]" id="products__variant_id_3" value="3" checked="checked" />フェミニッシュ フォーム 【医薬部外品】 200ml</label></div></div><button name="button" type="submit" class="btn btn-primary">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-teiki.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-teiki.png" alt="カートに追加する（定期便価格）">
 					</button></form><pre class="html-tag-content"></pre>
 				</div>
 			</div>
@@ -70,7 +70,7 @@ get_header(); ?>
 		<section class="PRODUCTS-SHEET">
 			<p>
 				<a href="<?php echo home_url(); ?>/sheet">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p2.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p2.png" alt="フェミニッシュシート（シート状洗浄料）">
 				</a>
 			</p>
 			<div class="products-container">
@@ -95,7 +95,7 @@ get_header(); ?>
 						<option value="18">18</option>
 						<option value="19">19</option>
 						<option value="20">20</option></select></div><button name="button" type="submit" class="btn btn-primary">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p2-normal.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p2-normal.png" alt="カートに追加する（通常価格）">
 						</button></form><pre class="html-tag-content"></pre>
 					</div>
 					<div class="products-item">
@@ -119,14 +119,14 @@ get_header(); ?>
 							<option value="18">18</option>
 							<option value="19">19</option>
 							<option value="20">20</option></select></div><div class="form-group"><div class="form-group"><label><input type="radio" name="products[][variant_id]" id="products__variant_id_8" value="8" checked="checked" />フェミニッシュ シート 12枚</label></div></div><button name="button" type="submit" class="btn btn-primary">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p2-teiki.png" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p2-teiki.png" alt="カートに追加する（定期便価格）">
 							</button></form><pre class="html-tag-content"></pre>
 						</div>
 					</div>
-					<p><img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p-desc.png" alt=""></p>
+					<p><img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p-desc.png" alt="定期便説明文"></p>
 					<p class="kuwashiku">
 						<a href="<?php echo home_url(); ?>/teiki">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p-kuwashiku.png" alt="">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p-kuwashiku.png" alt="定期便リンク">
 						</a>
 					</p>
 				</section>

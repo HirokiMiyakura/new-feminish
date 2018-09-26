@@ -16,8 +16,10 @@ get_header(); ?>
 	
 	<h2><p><img src="<?php echo get_template_directory_uri(); ?>/img/VOICE/sv-midashi.png" alt=""></p></h2>
 	<p><img src="<?php echo get_template_directory_uri(); ?>/img/VOICE/sv1.png" alt=""></p>
-	<p><img src="<?php echo get_template_directory_uri(); ?>/img/VOICE/sv1.png" alt=""></p>
-	<p><img src="<?php echo get_template_directory_uri(); ?>/img/VOICE/sv1.png" alt=""></p>
+	<p><img src="<?php echo get_template_directory_uri(); ?>/img/VOICE/sv2.png" alt=""></p>
+	<p><img src="<?php echo get_template_directory_uri(); ?>/img/VOICE/sv3.png" alt=""></p>
+	
+	<p class="chui">＊個人の感想です。効果を保証するものではありません。</p>
 </section>
 <!-- /section -->
 

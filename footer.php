@@ -36,17 +36,6 @@
 
 <?php wp_footer(); ?>
 
-<!-- analytics -->
-<script>
-(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
-	(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
-	l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
-ga('send', 'pageview');
-</script>
-
-
 <script>
 jQuery(document).ready(function($){
 	$(function(){
@@ -57,6 +46,55 @@ jQuery(document).ready(function($){
 			$('.item' + num).fadeIn(); //クリックしたサムネイルに対応するメイン画像を表示
 		});
 	});
+});
+</script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<script>
+	var $slider_container = $('.slider-container'),
+    $slider = $('.slider'),
+    $slider_nav_container = $('.slider-nav-container'),
+    $slider_nav = $('.slider-nav');
+
+// ナビゲーション用に複製
+$slider_nav.append($slider.contents().clone());
+
+// スライド初期化時にクラスを追加
+// はじめはdisplay:noneしておき、.initializedが追加されたらdisplay:block
+$slider.on('init', function(){
+  $slider_container.addClass('initialized');
+});
+$slider_nav.on('init', function(){
+  $slider_nav_container.addClass('initialized');
+});
+
+$slider.slick({
+  arrows: false,
+  asNavFor: $slider_nav,
+  fade: true,
+  waitForAnimate: false
+});
+$slider_nav.slick({
+  appendArrows: $slider_nav_container,
+  prevArrow: '<div class="slider-prev"><img src="<?php echo get_template_directory_uri(); ?>/img/SLIDER/left.png" alt="左矢印"/></div>',
+  nextArrow: '<div class="slider-next"><img src="<?php echo get_template_directory_uri(); ?>/img/SLIDER/right.png" alt="右矢印"/></div>',
+  slidesToShow: 3,
+  asNavFor: $slider,
+  focusOnSelect: true,
+  centerMode: true,
+  centerPadding: '0px'
+});
+
+// スライドの横幅を小数点以下pxまで表示
+// 今回はcenterPaddingもあるのでその分も計算しています
+$slider_nav.on('setPosition', function(){
+  var slider_width = $slider_nav.width(),
+      slide_gutter = $slider_nav.find('.slick-slide').eq(0).css('margin-right').split('px')[0],
+      slides_num = $slider_nav.slick('slickGetOption', 'slidesToShow'),
+      slides_center_padding = $slider_nav.slick('slickGetOption', 'centerPadding').split('px')[0],
+      slide_width = (slider_width - slide_gutter * (slides_num - 1) - (slides_center_padding * 2)) / slides_num;
+  $slider_nav.find('.slick-slide').css('width', slide_width + 'px');
 });
 </script>
 </body>

@@ -76,6 +76,20 @@
   top: 0;
   right: 0;
 }
+
+.hukudashi1 {
+  top: -1vw;
+}
+.hukudashi3 {
+  top: 2vw;
+}
+.hukudashi4 {
+  top: 4vw;
+}
+.hukudashi5 {
+  top: 7vw;
+}
+
 .hukudashi1.hyouji,
 .hukudashi2.hyouji,
 .hukudashi3.hyouji,

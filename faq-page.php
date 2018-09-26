@@ -9,10 +9,10 @@ get_header(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/panel.js"></script>
 
 <section class="FAQ">
-	<p><img src="<?php echo get_template_directory_uri(); ?>/img/FAQ/faq-main.png" usemap="#ImageMap" alt="" /></p>
+	<p><img src="<?php echo get_template_directory_uri(); ?>/img/FAQ/faq-main.png" usemap="#ImageMap" alt="イメージマップ" /></p>
 	<map name="ImageMap">
-		<area shape="rect" coords="-34,-26,342,218" href="#midashi1" alt="" />
-		<area shape="rect" coords="424,-58,740,200" href="#midashi2" alt="" />
+		<area shape="rect" coords="-34,-26,342,218" href="#midashi1" alt="フェミニッシュについて" />
+		<area shape="rect" coords="424,-58,740,200" href="#midashi2" alt="お買い物について" />
 	</map>
 </section>
 <!-- /FAQ section -->
@@ -77,7 +77,7 @@ get_header(); ?>
 								詳細は<a href="<?php echo home_url(); ?>/guide">こちら</a>をご覧ください。</div></dd>
 
 								<dt>注文した商品が届くまでにどの位日数がかかりますか？</dt></dt>
-								<dd><div class="arrow_box">商品は、ご注文受付から1週間前後で佐川急便にてお届けいたします。
+								<dd><div class="arrow_box">商品は、ご注文受付から1週間以内に佐川急便の宅急便にて発送いたします。
 									この期間を過ぎてもお手元に届かない場合は、
 									お手数ですがアライアンスファーマお客様センター（076-471-8623）まで
 									お問い合わせください。
