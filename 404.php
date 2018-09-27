@@ -1,24 +1,13 @@
 <?php get_header(); ?>
+<!-- section -->
+<section class="section-outer">
 
-	<main role="main">
-		<!-- section -->
-		<section>
+	<div class="inner">
+	<h1>ページが見つかりません</h1>
+	<h2 class="midashi">ページから探す</h2>
+	<?php echo do_shortcode('[wp_sitemap_page]'); ?>
+	</div>
 
-			<!-- article -->
-			<article id="post-404">
-
-				<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
-				<h2>
-					<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'html5blank' ); ?></a>
-				</h2>
-
-			</article>
-			<!-- /article -->
-
-		</section>
-		<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
-
+</section>
+<!-- /section -->
 <?php get_footer(); ?>

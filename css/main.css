@@ -281,6 +281,12 @@ footer {
   margin: 4% 0;
 }
 
+.ABOUT-NAYAMI p.l-check {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .about-inner {
   width: 864px;
   margin: 0 auto;
@@ -499,12 +505,20 @@ section.TAB {
   margin: 5% auto;
 }
 
+.VOICE p.chui {
+  text-align: right;
+}
+
 /*サイトマップ*/
 
 .SITEMAP {
   margin-top: 5%;
-  padding: 5%;
-  border: 1px solid silver;
+  /* border: 1px solid silver; */
+}
+
+.sitemap-inner {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .SITEMAP h1 {
@@ -535,6 +549,18 @@ section.TAB {
   line-height: 18pt;
   margin: 0;
   padding: 3% 0;
+  text-align: left;
+}
+
+/* 404.phpなど */
+
+.section-outer {
+  margin: 5% 0;
+}
+
+.inner{
+  width: 90%;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1150px) {
@@ -687,7 +713,8 @@ section.TAB {
 @media screen and (max-width: 1000px) {
 
   header {
-    height: 75px;
+    /*height: 75px;*/
+    height: 90px;
   }
 
   .sub-nav {
@@ -706,7 +733,11 @@ section.TAB {
   }
 
   #menu-sp ul {
-    padding: 15% auto;
+    padding: 15% 0;
+  }
+
+  .ABOUT-NAYAMI p.l-check {
+    font-size: 1.5em;
   }
 
 }
@@ -779,6 +810,12 @@ section.TAB {
     background-size: 15%;
   }
 
+  /*フェミニッシュについて*/
+
+  .ABOUT-NAYAMI p.l-check {
+    font-size: 1.2em;
+  }
+
   /*商品一覧 */
 
   .products-container {
@@ -800,11 +837,6 @@ section.TAB {
 
   .GUIDE {
     margin: 5% 0;
-  }
-
-  .guide-inner {
-    width: 90%;
-    margin: 0 auto;
   }
 
   .guide-inner h2 {
@@ -946,8 +978,6 @@ section.TAB {
 
   .SITEMAP {
     margin-top: 5%;
-    padding: 5%;
-    border: 1px solid silver;
   }
 
   .SITEMAP h1 {
