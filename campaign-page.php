@@ -15,7 +15,7 @@ get_header(); ?>
 <!-- section -->
 <section class="CAMPAIGN-PRODUCT">
 	<div class="campaign-product-inner">
-		<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="6" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="single_product" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
+		<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="9" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="single_product" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
 			<option value="2">2</option>
 			<option value="3">3</option>
 			<option value="4">4</option>
@@ -66,7 +66,7 @@ get_header(); ?>
 	<!-- section -->
 	<section class="CAMPAIGN-PRODUCT">
 		<div class="campaign-product-inner">
-			<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="6" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="single_product" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
+			<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="9" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="single_product" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
 				<option value="4">4</option>
@@ -115,7 +115,7 @@ get_header(); ?>
 		<!-- section -->
 		<section class="CAMPAIGN-PRODUCT">
 			<div class="campaign-product-inner">
-				<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="6" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="single_product" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
+				<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="9" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="single_product" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
 					<option value="4">4</option>
