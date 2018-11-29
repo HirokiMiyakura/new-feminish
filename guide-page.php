@@ -50,6 +50,26 @@ get_header(); ?>
 							<li>・お届け先によっては代金引換をお受けすることができません。誠に申し訳ありませんが、ご了承ください。</li>
 						</ul>
 						
+						<h2>■後払い（「コンビニ」「郵便局」「銀行」 ）</h2>
+
+						<p>
+							<a href="http://www.np-atobarai.jp/about/" target="_blank">
+								<img src="https://www.netprotections.com/start/atobarai/banner/atobarai_newbanner_gr468x64.png" alt="NP後払い" />
+							</a>
+						</p>
+						<br>
+						<p>○このお支払方法の詳細<br>
+						商品の到着を確認してから、「コンビニ」「郵便局」「銀行」で<br>
+						後払いできる安心・簡単な決済方法です。請求書は、<span style="color:red;">商品とは別に郵送されます</span>ので、<br>
+						発行から14日以内にお支払いをお願いします。<br>
+						○ご注意<br/>
+						後払い手数料：<span style="color:red; font-weight:bold;">無料</span><br >
+						後払いのご注文には、<a href="https://www.netprotections.com/" target="_blank">株式会社ネットプロテクションズ</a>の提供する<br>
+						NP後払いサービスが適用され、サービスの範囲内で個人情報を提供し、<br>
+						代金債権を譲渡します。<span style="color:red;">ご利用限度額は累計残高で54,000円（税込）迄です。</span><br>
+						詳細はバナーをクリックしてご確認下さい。<br>           
+						ご利用者が未成年の場合、法定代理人の利用同意を得てご利用ください。</p>
+						
 						<h2>■ご注文後の変更・キャンセルについて</h2>
 						<p>ご注文手続き完了後は、本オンラインショップからご注文内容の変更・キャンセルはお受けできません。<br>
 							【アライアンスファーマお客様センター】<br>

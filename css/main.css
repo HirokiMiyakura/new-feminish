@@ -73,6 +73,25 @@ main {
   background-color: #fff;
 }
 
+.kaiyaku-desc {
+  margin: 10px auto!important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*.teiki-kaiyaku-desc {*/
+/*  font-size: 18px;*/
+/*  font-weight: bold;*/
+/*  padding-right: 100px;*/
+/*  width:  500px;*/
+/*  float: right;*/
+/*  margin-top: 0!important;*/
+/*}*/
+
+.teiki-kaiyaku-desc.s-mt {
+  margin-top: 30px!important;
+}
+
 /* ヘッダー */
 
 header {
@@ -343,9 +362,40 @@ section.TAB {
   margin: 4% 0;
 }
 
+.teiki-kaiyaku-desc {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 45%;
+  right: 150px;
+}
+
+.teiki-kaiyaku-desc-sheet {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 38%;
+  right: 150px;
+}
+
+
+.teiki-button {
+  position: absolute;
+  top: 67%;
+  right: 40px;
+}
+
+.teiki-button-sheet {
+  position: absolute;
+  top: 60%;
+  right: 10px;
+}
+
 .teiki-product-inner {
   width: 850px;
   margin: 0 auto;
+  position: relative;
+  margin-bottom: 100px;
 }
 
 /*キャンペーン*/
@@ -650,6 +700,10 @@ section.TAB {
   .section-inner {
     width: 100%;
   }
+  
+  .kaiyaku-desc {
+    font-size: 2vw;
+  }
 
   /* フッター */
 
@@ -691,6 +745,30 @@ section.TAB {
   .teiki-product-inner {
     width: 100%;
   }
+  
+  .teiki-kaiyaku-desc {
+    font-size: 1.7vw;
+    top: 45%;
+    right: 19vw;
+  }
+  
+  .teiki-kaiyaku-desc-sheet {
+    font-size: 1.7vw;
+    top: 38%;
+    right: 19vw;
+  }
+  
+  
+  .teiki-button {
+    right: 10vw;
+    width: 51vw;
+  }
+  
+  .teiki-button-sheet {
+    right: 7vw;
+    width: 58vw;
+  }
+
 
   /* キャンペーン */
 
@@ -749,6 +827,10 @@ section.TAB {
   .midashi {
     font-size: 17pt!important;
     margin-bottom: 10px!important;
+  }
+  
+  .kaiyaku-desc {
+    font-size: 2vw;
   }
 
   /* ヘッダー */
@@ -815,7 +897,35 @@ section.TAB {
   .ABOUT-NAYAMI p.l-check {
     font-size: 1.2em;
   }
-
+  
+  /*定期*/
+  
+  .teiki-product-inner {
+    margin-bottom: 50px;
+  }
+  
+  .teiki-kaiyaku-desc {
+    font-size: 2vw;
+    top: 45%;
+    right: 15vw;
+  }
+  
+  .teiki-kaiyaku-desc-sheet {
+    font-size: 2vw;
+    top: 38%;
+    right: 15vw;
+  }
+  
+  
+  .teiki-button {
+    right: 9vw;
+    width: 51vw;
+  }
+  
+  .teiki-button-sheet {
+    right: 6vw;
+    width: 58vw;
+  }
   /*商品一覧 */
 
   .products-container {

@@ -20,7 +20,7 @@ get_header(); ?>
 
 <!-- section -->
 <section class="TEIKI-PRODUCT">
-	<div class="teiki-product-inner">
+	<div class="teiki-product-inner clear">
 		<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="2" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="regular_course" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
 			<option value="2">2</option>
 			<option value="3">3</option>
@@ -41,14 +41,20 @@ get_header(); ?>
 			<option value="18">18</option>
 			<option value="19">19</option>
 			<option value="20">20</option></select></div><div class="form-group"><div class="form-group"><label><input type="radio" name="products[][variant_id]" id="products__variant_id_3" value="3" checked="checked" />フェミニッシュ フォーム 【医薬部外品】 200ml</label></div></div><button name="button" type="submit" class="btn btn-primary">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/TEIKI/TEIKI-PRODUCT/teiki-product1.png" alt="薬用フェミニッシュフォーム（泡タイプ洗浄料）">
-			</button></form><pre class="html-tag-content"></pre>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/TEIKI/TEIKI-PRODUCT/teiki-product1-1.png" alt="薬用フェミニッシュフォーム定期価格">
+			
+			<p class="teiki-kaiyaku-desc">3回以上お届け後いつでも解約可能です。<br>
+3回・合計金額　4,860円＋税</p>
+			<img class="teiki-button" src="<?php echo get_template_directory_uri(); ?>/img/TEIKI/TEIKI-PRODUCT/teiki-button.png" alt="薬用フェミニッシュフォーム定期カート">
+			
+			</button>
+			</form><pre class="html-tag-content"></pre>
 		</div>
 	</section>
 	
 	<!-- section -->
 	<section class="TEIKI-PRODUCT">		
-		<div class="teiki-product-inner">
+		<div class="teiki-product-inner clear">
 			<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="3" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="regular_course" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -69,7 +75,10 @@ get_header(); ?>
 				<option value="18">18</option>
 				<option value="19">19</option>
 				<option value="20">20</option></select></div><div class="form-group"><div class="form-group"><label><input type="radio" name="products[][variant_id]" id="products__variant_id_8" value="8" checked="checked" />フェミニッシュ シート 12枚</label></div></div><button name="button" type="submit" class="btn btn-primary">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/TEIKI/TEIKI-PRODUCT/teiki-product2.png" alt="フェミニッシュシート（シート状洗浄料）">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/TEIKI/TEIKI-PRODUCT/teiki-product2-1.png" alt="フェミニッシュシート定期価格">
+					<p class="teiki-kaiyaku-desc-sheet">3回以上お届け後いつでも解約可能です。<br>
+3回・合計金額　6,075円＋税</p>
+				<img class="teiki-button-sheet" src="<?php echo get_template_directory_uri(); ?>/img/TEIKI/TEIKI-PRODUCT/teiki-button-sheet.png" alt="フェミニッシュシート定期カート">
 				</button></form><pre class="html-tag-content"></pre>
 			</div>
 		</section>
