@@ -37,8 +37,8 @@ get_header(); ?>
 				<option value="19">19</option>
 				<option value="20">20</option></select></div><button name="button" type="submit" class="btn btn-primary">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/FOAM/FOAM-PRODUCT/foam-normal.png" alt="カートに追加する（通常価格）">
-
 				</button></form><pre class="html-tag-content"></pre>
+				<p class="kaiyaku-desc"><a href="<?php echo home_url(); ?>/campaign" class="beginner">フェミニッシュはじめてご購入の方はこちら</a></p>
 			</div>
 			<div class="products-item">
 				<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="2" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="regular_course" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
@@ -123,6 +123,7 @@ get_header(); ?>
 						<option value="20">20</option></select></div><button name="button" type="submit" class="btn btn-primary">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/FOAM/FOAM-PRODUCT/foam-normal.png" alt="カートに追加する（通常価格）">
 						</button></form><pre class="html-tag-content"></pre>
+						<p class="kaiyaku-desc"><a href="<?php echo home_url(); ?>/campaign" class="beginner">フェミニッシュはじめてご購入の方はこちら</a></p>
 					</div>
 					<div class="products-item">
 						<form action="https://alliancepharma.jp/api/cart_item.html" class="form-inline" method="post"><input type="hidden" name="id" id="id" value="2" /><input type="hidden" name="cart_item_type" id="cart_item_type" value="regular_course" /><div class="form-group">個数<select name="quantity" id="quantity" class="form-control"><option value="1">1</option>
