@@ -35,7 +35,7 @@ get_header(); ?>
 				<option value="18">18</option>
 				<option value="19">19</option>
 				<option value="20">20</option></select></div><button name="button" type="submit" class="btn btn-primary">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-normal-test.png" alt="カートに追加する（通常価格）">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/tuzyou-cart.png" alt="カートに追加する（通常価格）">
 				</button></form><pre class="html-tag-content"></pre>
 				<p class="kaiyaku-desc"><a href="<?php echo home_url(); ?>/campaign" class="beginner">フェミニッシュはじめてご購入の方はこちら</a></p>
 			</div>
@@ -60,11 +60,7 @@ get_header(); ?>
 					<option value="18">18</option>
 					<option value="19">19</option>
 					<option value="20">20</option></select></div><div class="form-group"><div class="form-group"><label><input type="radio" name="products[][variant_id]" id="products__variant_id_3" value="3" checked="checked" />フェミニッシュ フォーム 【医薬部外品】 200ml</label></div></div><button name="button" type="submit" class="btn btn-primary">
-						<!--<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-teiki.png" alt="カートに追加する（定期便価格）">-->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-teiki1.png" alt="定期便価格">
-						<p class="kaiyaku-desc">3回以上お届け後いつでも解約可能です。<br>
-3回・合計金額　4,860円＋税</p>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/p1-teiki2.png" alt="定期便特典">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-FOAM/teiki-cart.png" alt="定期便特典">
 						
 					</button></form><pre class="html-tag-content"></pre>
 <!--					<p class="kaiyaku-desc">3回以上お届け後いつでも解約可能です。<br>-->
