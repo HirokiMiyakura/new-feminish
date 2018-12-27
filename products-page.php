@@ -120,7 +120,7 @@ get_header(); ?>
 							<option value="17">17</option>
 							<option value="18">18</option>
 							<option value="19">19</option>
-							<option value="20">20</option></select></div><div class="form-group"><div class="form-group"><label><input type="radio" name="products[][variant_id]" id="products__variant_id_8" value="8" checked="checked" />フェミニッシュ シート 12枚</label></div></div><button name="button" type="submit" class="btn btn-primary">
+							<option value="20">20</option></select></div><div class="form-group"><div class="form-group"><label><input type="radio" name="products[][variant_id]" id="products__variant_id_18" value="18" checked="checked" />フェミニッシュ シート 12枚 5個セット </label></div></div><button name="button" type="submit" class="btn btn-primary">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/PRODUCTS/PRODUCTS-SHEET/p2-teiki2-2.png" alt="定期便特典">
 							</button></form><pre class="html-tag-content"></pre>
 		
